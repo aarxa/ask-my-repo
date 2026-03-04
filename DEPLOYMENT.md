@@ -10,15 +10,18 @@ Create a new **Web Service** from this repo with:
 
 Set environment variables in Render:
 
+- `PYTHON_VERSION` = `3.11.11`
 - `OPENAI_API_KEY` = your OpenAI key
 - `GITHUB_TOKEN` = your GitHub personal access token
 - `CORS_ORIGINS` = `http://localhost:5173,https://YOUR_NETLIFY_SITE.netlify.app`
-- `CHROMA_PATH` = `/var/data/chroma_store`
+- `CHROMA_PATH`:
+  - Paid Render (with disk): `/var/data/chroma_store`
+  - Free Render (no disk): `./chroma_store`
 
-Attach a persistent disk to the backend service:
+Persistent storage choice:
 
-- Mount path: `/var/data/chroma_store`
-- Recommended size: 1 GB+ (increase as your indexed repos grow)
+- Paid Render: attach a persistent disk at `/var/data/chroma_store`.
+- Free Render: persistent disks are not available. Your local files are ephemeral and can be lost on restart, redeploy, or spin-down.
 
 After deploy, copy your backend URL, for example:
 
@@ -55,3 +58,9 @@ If you add a custom frontend domain later, include that domain too in `CORS_ORIG
 2. Open your Netlify app.
 3. Ingest a GitHub repo and ask a question.
 4. Confirm no CORS errors in browser devtools.
+
+## Free Render caveats (important)
+
+- Free web services spin down after inactivity and can take about a minute to wake up.
+- Free web services cannot use persistent disks.
+- If your service spins down/restarts, local Chroma data can be lost, so you may need to ingest repos again.
