@@ -152,19 +152,25 @@ Current deployment target:
 
 ## Screenshots
 
-This section is intentionally kept free of placeholder links.
-
-Add your real screenshots directly here under the headings below.
-
 ### Home and Repository Input
+
+![Home and repository input](docs/screenshots/landing-page.png)
 
 ### Ingestion Progress Overlay
 
+![Ingestion progress overlay](docs/screenshots/analyzing-page.png)
+
 ### Chat Workspace
+
+![Chat workspace](docs/screenshots/chat.png)
 
 ### Dead Code Report
 
+![Dead code report](docs/screenshots/chat-2.png)
+
 ### AI Review Output
+
+UI screenshot for this section is being added next.
 
 ## Current Focus
 
