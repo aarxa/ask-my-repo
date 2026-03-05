@@ -164,9 +164,10 @@ Current deployment target:
 
 ![Chat workspace](docs/screenshots/chat.png)
 
+![Dead code report](docs/screenshots/chat-2.png)
+
 ### Dead Code Report
 
-![Dead code report](docs/screenshots/chat-2.png)
 
 ### AI Review Output
 
