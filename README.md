@@ -152,26 +152,31 @@ Current deployment target:
 
 ## Screenshots
 
-### Home and Repository Input
+### Landing Page
 
-![Home and repository input](docs/screenshots/landing-page.png)
+![Landing page](docs/screenshots/landing-page.png)
 
-### Ingestion Progress Overlay
+### Analyzing Repository
 
-![Ingestion progress overlay](docs/screenshots/analyzing-page.png)
+![Analyzing repository](docs/screenshots/analyzing-page.png)
 
-### Chat Workspace
+### Repository Chat
 
-![Chat workspace](docs/screenshots/chat.png)
+![Repository chat empty state](docs/screenshots/chat.png)
 
-![Dead code report](docs/screenshots/chat-2.png)
+### Chat Answer with Sources
 
-### Dead Code Report
+![Chat answer with sources](docs/screenshots/chat-2.png)
 
+### AI Code Review
 
-### AI Review Output
+![AI code review setup](docs/screenshots/ai%20review%20page.png)
 
-UI screenshot for this section is being added next.
+![AI code review output](docs/screenshots/ai%20review.png)
+
+### Dead Code Detection
+
+![Dead code detection](docs/screenshots/deadcode%20page.png)
 
 ## Current Focus
 
