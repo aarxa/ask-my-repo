@@ -2,6 +2,8 @@
 
 Ask My Repo is a full-stack AI code intelligence app that ingests a public GitHub repository, builds semantic code context, and lets you interact with the codebase through natural language.
 
+![Landing page](docs/screenshots/landing-page.png)
+
 It combines:
 - repository ingestion and chunking
 - vector search over code
